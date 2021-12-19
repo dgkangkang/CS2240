@@ -1,0 +1,18 @@
+p1{
+  font-size: 20px;
+}
+
+div { 
+  background-color: rgb(238, 245, 247);
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+}
+
+h4{
+  text-align: left;
+}
+
