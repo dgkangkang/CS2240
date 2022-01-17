@@ -1,18 +1,68 @@
+
+.sidemenu{
+  text-decoration:underline;
+}
+
 p1{
   font-size: 20px;
 }
 
-div { 
+div{ 
   background-color: rgb(238, 245, 247);
 }
 
-.grid-container > div {
+.grid-container > div{
   background-color: rgba(255, 255, 255, 0.8);
   text-align: center;
   padding: 20px 0;
 }
 
-h4{
-  text-align: left;
+html,h2,h3,h4,h5,h6{
+  font-family: "Roboto", sans-serif;
 }
 
+h1{
+  color:rgb(85, 107, 47);font-weight:bold; 
+  padding: 5px;
+  font-family: "Roboto", sans-serif;
+}
+
+h4{
+  text-align: left;
+  text-emphasis-style: bold;
+}
+
+.w3-sidebar {
+  z-index: 3;
+  width: 250px;
+  top: 43px;
+  bottom: 0;
+  height: inherit;
+}
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+img{
+  border: 1px solid #ddd; 
+  border-radius: 4px; 
+  padding: 5px; 
+  vertical-align:middle" width="500" height="300"
+}
+
+.d1,.d2,.d3 {
+  border: 1px hidden rgb(34, 75, 1);
+  padding-top: 1px;
+  padding-bottom: 1px;
+  margin-left: 0.5%;
+  margin-right:0.5%; 
+  /*adding empty border to increase readability and sustain */ 
+}
+
+.topbutton{
+  color:blue;
+  background-color: rgb(102,102,102);
+  font-style:italic;
+  /* back to top button along with the background that matches with the lower panel*/
+}
